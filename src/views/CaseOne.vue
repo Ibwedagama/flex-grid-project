@@ -19,6 +19,12 @@
         <LongContent />
       </div>
     </section>
+    <section class="section__wrapper">
+      <h2>4. Content Spacing</h2>
+      <div class="section__container">
+        <ContentSpacing />
+      </div>
+    </section>
   </main>
 </template>
 
@@ -26,12 +32,14 @@
 import FlexWrap from '../components/Flex/FlexWrap.vue';
 import SqueezeImage from '../components/Flex/SqueezeImage.vue';
 import LongContent from '../components/Flex/LongContent.vue';
+import ContentSpacing from '../components/Flex/ContentSpacing.vue';
 
 export default {
   components: {
     FlexWrap,
     SqueezeImage,
     LongContent,
+    ContentSpacing,
   },
 };
 </script>
